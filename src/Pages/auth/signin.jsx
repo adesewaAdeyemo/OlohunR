@@ -119,7 +119,7 @@ class SignIn extends Component {
                 <Form.Group className="mb-3">
                   <div className="d-flex" id="justb">
                     <Form.Label>Password</Form.Label>
-                    <span className="px-5">
+                    <span className="px-2">
                     </span>
                     <Link to="/forget">Forgot password</Link>
                   </div>
