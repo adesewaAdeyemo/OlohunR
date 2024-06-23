@@ -56,7 +56,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/forget" element={<ForgetPassword />} />
-          <Route path="/signup/connectgoogle" element={<ConnectGoogle />} />
+          <Route path="/signup/gsignup" element={<ConnectGoogle />} />
           <Route path="/signup/emailsignup" element={<EmailSignUp />} />
         </Routes>{" "}
       </Router>

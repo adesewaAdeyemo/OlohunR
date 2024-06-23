@@ -93,7 +93,7 @@ a.navbar-brand {
 }
 button.navbar-toggler i{
     color: #101216 !important;
-    font-size: 23px !important;
+    /* font-size: 23px !important; */
 }
 .nav-item{
     margin: 0 10px;
@@ -476,7 +476,7 @@ h6{
 .signup-form h4, .signup-form .nav-brand{
     font-size: 16px !important;   
 }
-.signup-form label, .signup-form h6{
+.signup-form h6{
     font-size: 10px !important;   
 }
 .signup-form .form-footer h6, .signup-form .form-footer a{
@@ -516,6 +516,8 @@ h6{
 }
 label{
     font-weight: 500;
+    font-size: 18px !important; 
+
 }
 .or{
     margin-top: -45px;

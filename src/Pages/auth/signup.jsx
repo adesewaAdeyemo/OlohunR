@@ -57,7 +57,7 @@ class SignUp extends Component {
 
                 <button
                   type="submit"
-                  className="btn continue-btn-auth-email border"
+                  className="btn continue-btn-auth-email border py-3"
                   style={{ color: "#fff" }}
                 >
                   <Link to="emailsignup" style={{ color: "#fff !important" }}>
