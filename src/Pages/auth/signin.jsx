@@ -115,9 +115,9 @@ class SignIn extends Component {
                 </Form.Group>
                 <br className="d-sm-none"></br>
                 <br className="d-sm-none"></br>
-                <br className="d-sm-none"></br>
+                <br className=""></br>
                 <Form.Group className="mb-3">
-                  <div className="d-flex" id="justb">
+                  <div className="" id="justb">
                     <Form.Label>Password</Form.Label>
                     <span className="px-2">
                     </span>
