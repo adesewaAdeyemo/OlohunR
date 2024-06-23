@@ -497,10 +497,10 @@ i.fa-linkedin-square{
     background-color: transparent !important;
 }
 
-.continue-btn-auth {
+.continue-btn-auth, .continue-btn-auth a{
     width: 100%;
-    color: #fff;
-    font-weight: bold;
+    color: rgb(245, 82, 12) !important;
+    font-weight: normal;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px !important;
