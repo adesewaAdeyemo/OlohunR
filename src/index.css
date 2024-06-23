@@ -137,6 +137,10 @@
      .styledbg.d-flex{
         padding: 50px 0px 0 0px;
      }
+     .styledbg .row .col{
+      /* display: block !important; */
+      padding: 0 !important;
+     }
      form h2{
       font-size: 27px !important;
      }
@@ -318,17 +322,18 @@ button a, .continue-btn-auth a{
 
   @media screen and (max-width: 462px) {
   .search{
-    display: none;
+    width: 10px;
+    /* display: none; */
 }
 .nav-item a{
   font-size: 10px !important;
 }
 
 a.navbar-brand {
-    font-size: 25px;
+    font-size: 35px !important;
 }
 button.navbar-toggler i{
-    font-size: 8px !important;
+    font-size: 5px !important;
 }
   }
 
@@ -342,13 +347,17 @@ button.navbar-toggler i{
 .navform .block-btn{
   /* margin-left: 0px !important; */
 }
-
+      a.navbar-brand {
+        font-size: 25px !important;
     }
 
+}
 
-        @media screen and (max-width: 330px) {
+
+  @media screen and (max-width: 330px) {
       .mmm{
         display: none;
       }
+
     }
 

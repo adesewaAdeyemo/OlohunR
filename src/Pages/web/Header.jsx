@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import img1 from "../../assets/images/Rectangle8.png";
 import img2 from "../../assets/images/Rectangle10.png";
@@ -34,9 +35,9 @@ export class Header extends Component {
             <p className="">
               Passion Or Profession, Find Your Artistic Haven Here
             </p>
-            <a className="btn block-btn getstated" href="#">
+            <Link className="btn block-btn getstated" to="/signup">
               Get Started
-            </a>
+            </Link>
           </div>
 
           <div className="wrapper90">
