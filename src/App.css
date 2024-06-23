@@ -81,7 +81,7 @@ border-radius: 16px !important;
 
 /* nav */
 a.navbar-brand {
-    color: #C7BDBD;
+    color: #C7BDBD !important;
     font-family: "Joti One";
     font-size: 50px;
     font-style: normal;
