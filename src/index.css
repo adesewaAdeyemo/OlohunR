@@ -208,8 +208,12 @@ margin-right: 20px !important;}
   color: #fff !important;
   background-color: #fff !important;
 }
-.navform{
-  margin-top: -35px;
+.navform .block-btn{
+  /* margin-top: -40px;
+  margin-left: 70px !important; */
+}
+.navform.d-flex{
+  padding: 0 !important;
 }
 
     }
@@ -285,6 +289,28 @@ margin-right: 20px !important;}
     .search{
     width: 60px;
 }
+h2{
+  font-size: 24px !important;
+}
+label{
+  font-size: 15px;
+}
+a{
+  font-size: 14px;
+}
+
+h6{
+  font-size: 14px;
+  line-height: 24px;
+}
+button a, .continue-btn-auth a{
+  font-size: 16px !important;
+}
+/* br{
+  display: none !important;
+} */
+
+
 }
 
   @media screen and (max-width: 462px) {
@@ -310,6 +336,10 @@ button.navbar-toggler i{
 button.navbar-toggler i{
     font-size: 6px !important;
 }
+.navform .block-btn{
+  /* margin-left: 0px !important; */
+}
+
     }
 
 

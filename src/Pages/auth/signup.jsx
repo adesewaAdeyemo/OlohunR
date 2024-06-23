@@ -46,7 +46,7 @@ class SignUp extends Component {
                 >
                   <Link to="connectgoogle">Sign up with Google</Link>
                 </button>
-                <br></br>
+                <br className="d-sm-none"></br>
                 <br></br>
                 <br></br>
                 <hr></hr>
@@ -64,8 +64,8 @@ class SignUp extends Component {
                     Sign up with Email
                   </Link>
                 </button>
-                <br></br>
-                <br></br>
+                <br className="d-sm-none"></br>
+                <br className="d-sm-none"></br>
                 <div className="text-center py-3 form-footer">
                   <h6 style={{ color: "#fff" }}>
                     By creating an account you agree with our Terms of service,

@@ -75,11 +75,11 @@ class SignIn extends Component {
                   type="submit"
                   className="btn continue-btn-auth btn-light border"
                 >
-                  Sign in with Google
+                  <Link to="gsignup">Sign in with Google</Link>
                 </button>
 
-                <br></br>
-                <br></br>
+                <br className="d-sm-none"></br>
+                <br className=""></br>
                 <br></br>
                 <hr></hr>
                 <div className="text-center pt-3 or">
@@ -91,9 +91,9 @@ class SignIn extends Component {
                     Or sign in with google
                   </Link>
                 </div>
-                <br></br>
+                <br className=""></br>
 
-                <Form.Group className="mb-3">
+                <Form.Group className="">
                   <Form.Label>Username or Email</Form.Label>
                   <span style={{ color: "red" }} className="px-2">
                     {this.state.emailError}
@@ -110,7 +110,9 @@ class SignIn extends Component {
                     style={inp}
                   />
                 </Form.Group>
-                <br></br>
+                <br className="d-sm-none"></br>
+                <br className="d-sm-none"></br>
+                <br className="d-sm-none"></br>
                 <Form.Group className="mb-3">
                   <div className="mb-3 d-flex" id="justb">
                     <Form.Label>Password</Form.Label>
