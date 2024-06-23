@@ -105,8 +105,8 @@ class SignIn extends Component {
                     placeholder="Email...."
                     type="text"
                     name="emailOrUsername"
-                    className="px-3 py-3"
-                    // size="lg"
+                    // className="px-3 py-3"
+                    size="lg"
                     onChange={(e) => {
                       this.setState({ emailOrUsername: e.target.value });
                     }}
@@ -131,8 +131,8 @@ class SignIn extends Component {
                     placeholder="Password"
                     type="password"
                     name="password"
-                    className="px-3 py-3"
-                    // size="lg"
+                    // className="px-3 py-3"
+                    size="lg"
                     onChange={(e) => {
                       this.setState({ password: e.target.value });
                     }}
