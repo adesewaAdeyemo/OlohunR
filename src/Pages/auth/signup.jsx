@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/css/auth.css"
 // import styled from "styled-components";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Form from "react-bootstrap/Form";
 
 import { Component } from "react";
 
@@ -29,8 +30,8 @@ class SignUp extends Component {
           >
             <div className="col-md-3"></div>
             <div className="col-lg-4 col-md-8">
-              <form
-                className="signup-form"
+              <Form
+                className=""
                 style={{ color: "#fff" }}
                 onSubmit={this.formSubmit}
               >
@@ -76,7 +77,7 @@ class SignUp extends Component {
                     Already a member? <Link to="/signin">Log In</Link>
                   </h6>
                 </div>
-              </form>
+              </Form>
             </div>
           </div>
         </div>
