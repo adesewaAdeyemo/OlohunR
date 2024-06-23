@@ -60,13 +60,13 @@ class SignIn extends Component {
     return (
       <>
         <div className="signin d-flex">
-          <div className="styled col-md-3" id="hh"></div>
+          <div className="styled col-md-3 d-sm-none" id="hh"></div>
           <div
-            className="styledbg col-md-9 d-flex"
+            className="styledbg col-md-9 col-sm-12 d-flex"
             style={{ margin: "auto 0" }}
           >
-            <div className="col-md-3 "></div>
-            <div className="col-lg-4 col-md-8 col-sm-10">
+            <div className="col-md-3 d-sm-none"></div>
+            <div className="col-lg-4 col-md-8 col-sm-12">
               <Form style={{ color: "#fff" }} onSubmit={this.formSubmit}>
                 <h2>Sign in to Olóhun</h2>
                 <br></br>
