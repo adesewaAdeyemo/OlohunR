@@ -105,7 +105,7 @@ class SignIn extends Component {
                     placeholder="Email...."
                     type="text"
                     name="emailOrUsername"
-                    className="px-3 py-2"
+                    className="px-3 py-3"
                     // size="lg"
                     onChange={(e) => {
                       this.setState({ emailOrUsername: e.target.value });
@@ -113,8 +113,8 @@ class SignIn extends Component {
                     style={inp}
                   />
                 </Form.Group>
-                <br className="d-sm-non"></br>
-                <br className="d-sm-non"></br>
+                {/* <br className="d-sm-non"></br> */}
+                {/* <br className="d-sm-non"></br> */}
                 <br className=""></br>
                 <Form.Group className="mb-3">
                   <div className="" id="justb">
@@ -131,7 +131,8 @@ class SignIn extends Component {
                     placeholder="Password"
                     type="password"
                     name="password"
-                    className="px-3 py-2"
+                    className="px-3 py-3"
+                    // size="lg"
                     onChange={(e) => {
                       this.setState({ password: e.target.value });
                     }}

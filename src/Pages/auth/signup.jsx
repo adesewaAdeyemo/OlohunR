@@ -44,7 +44,7 @@ class SignUp extends Component {
                   type="submit"
                   className="btn continue-btn-auth btn-light border"
                 >
-                  <Link to="connectgoogle">Sign up with Google</Link>
+                  <Link to="gsignup">Sign in with Google</Link>
                 </button>
                 <br className="d-sm-non"></br>
                 <br></br>

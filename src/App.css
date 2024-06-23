@@ -504,19 +504,26 @@ i.fa-linkedin-square{
 
 .continue-btn-auth, .continue-btn-auth a{
     width: 100%;
-    color: rgb(245, 82, 12) !important;
+    color: #000 !important;
     font-weight: normal;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px !important;
+    font-size: 25px !important;
+    font-weight: 700;
+}
+label{
+    font-weight: 500;
 }
 .or{
     margin-top: -45px;
 }
 .continue-btn-auth:hover {
-    border: 1px solid rgb(245, 82, 12) !important;
-    color: rgb(236, 128, 82) !important;
+    border: 1px solid #FFF !important;
+    color: #fff !important;
     background-color: transparent !important;
+}
+.continue-btn-auth a:hover {
+    color: #fff !important;
 }
 .continue-btn-auth-email {
     width: 100%;
@@ -524,19 +531,33 @@ i.fa-linkedin-square{
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px !important;
+    border: 1px solid #FFF !important;
+
+}
+.continue-btn-auth-email a{
+    color: #fff !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
 }
 
 .continue-btn-auth-email:hover {
-    border: 1px solid rgb(245, 82, 12) !important;
-    color: rgb(236, 128, 82) !important;
+    border: 1px solid #3A98B4 !important;
     background-color: transparent !important;
+}
+.continue-btn-auth-email a:hover {
+        color: #3A98B4 !important;
 }
 
 .btn-auth {
     background-color: #3A98B4 !important;
     color: #fff !important;
     width: 100%;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+
+}
+button{
+        border-radius: 18px !important;
 }
 .btn-auth:hover {
     border: 1px solid #3A98B4 !important;
