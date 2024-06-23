@@ -63,12 +63,12 @@ class SignIn extends Component {
     return (
       <>
         <div className="signin d-flex">
-          <div className="styled col-md-3 d-sm-none" id="hh"></div>
+          <div className="styled col-md-3 d-sm-non" id="hh"></div>
           <div
             className="styledbg col-md-9 col-sm-12 d-flex"
             style={{ margin: "auto 0" }}
           >
-            <div className="col-md-3 d-sm-none"></div>
+            <div className="col-md-3 d-sm-non"></div>
             <div className="col-lg-4 col-md-8 col-sm-12">
               <Form style={{ color: "#fff" }} onSubmit={this.formSubmit}>
                 <h2>Sign in to Olóhun</h2>
@@ -81,7 +81,7 @@ class SignIn extends Component {
                   <Link to="gsignup">Sign in with Google</Link>
                 </button>
 
-                <br className="d-sm-none"></br>
+                <br className="d-sm-non"></br>
                 <br className=""></br>
                 <br></br>
                 <hr></hr>
@@ -113,8 +113,8 @@ class SignIn extends Component {
                     style={inp}
                   />
                 </Form.Group>
-                <br className="d-sm-none"></br>
-                <br className="d-sm-none"></br>
+                <br className="d-sm-non"></br>
+                <br className="d-sm-non"></br>
                 <br className=""></br>
                 <Form.Group className="mb-3">
                   <div className="" id="justb">

@@ -36,7 +36,7 @@ class SignUp extends Component {
                 onSubmit={this.formSubmit}
               >
                 <div className="">
-                  <h2 className="">Sign up with Olóhun</h2>
+                  <h2 className="">Sign up to Olóhun</h2>
                 </div>
                 <br></br>
 
@@ -46,7 +46,7 @@ class SignUp extends Component {
                 >
                   <Link to="connectgoogle">Sign up with Google</Link>
                 </button>
-                <br className="d-sm-none"></br>
+                <br className="d-sm-non"></br>
                 <br></br>
                 <br></br>
                 <hr></hr>
@@ -60,12 +60,12 @@ class SignUp extends Component {
                   className="btn continue-btn-auth-email border"
                   style={{ color: "#fff" }}
                 >
-                  <Link to="emailsignup" style={{ color: "#fff" }}>
+                  <Link to="emailsignup" style={{ color: "#fff !important" }}>
                     Sign up with Email
                   </Link>
                 </button>
-                <br className="d-sm-none"></br>
-                <br className="d-sm-none"></br>
+                <br className="d-sm-non"></br>
+                <br className="d-sm-non"></br>
                 <div className="text-center py-3 form-footer">
                   <h6 style={{ color: "#fff" }}>
                     By creating an account you agree with our Terms of service,

@@ -142,7 +142,7 @@
       padding: 0 !important;
      }
      form h2{
-      font-size: 27px !important;
+      font-size: 22px !important;
      }
      button a{
       font-size: 14px;
@@ -244,9 +244,9 @@ margin-right: 20px !important;}
 }
 
 @media screen and (max-width: 600px) {
-  .d-sm-none{
-  display: none !important;
-}
+  .d-sm-non{
+    display: none !important;
+  }
   h1{
       font-size: 36px !important;
   }

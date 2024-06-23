@@ -85,7 +85,7 @@ class NavBar extends Component {
                   className="search py-2"
                   aria-label="Search Artist"
                 />
-                <Button variant="" className="mx-5 d-sm-none">
+                <Button variant="" className="mx-5 d-sm-non">
                   <Link
                     // onClick={changeNav}
                     className="nav-item px-4 py-2 trans-btn auth"

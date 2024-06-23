@@ -116,6 +116,7 @@ nav a.dropdown-item:hover{
     color: #fff !important;
 }
 
+
 .search{
     border-radius: 20px !important; 
     background: #4B474B !important; 
@@ -609,6 +610,9 @@ background-color: red !important;
 }
 #justb{
     justify-content: space-between !important;
+}
+h2{
+  font-size: 35px !important;
 }
 
 
