@@ -73,7 +73,7 @@ class Home extends Component {
           </h2>
           <Artist />
 
-          <div className="wrapper90">
+          <div className="wrapper90" style={{ textAlign: "center" }}>
             <h2 className="center mb-0" style={{ paddingTop: "60px" }}>
               Explore art commission - free
             </h2>
