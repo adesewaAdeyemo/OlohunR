@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 1500px) {
 .signin, .signup, .gsignup, .esignup{
-    background-image: url('../src/assets/images/siImg.png');
+    background-image: url('../src/assets/images/authbg.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh !important;
@@ -73,11 +73,8 @@
         padding: 50px 0 50px;
     }
     h1{
-        font-size: 40px;
+        font-size: 40px ;
     }
-    h2{
-        font-size: 30px;
-     }
      .main.d-flex, .row{
         flex-direction: column !important;
         align-items: center !important;
@@ -116,6 +113,10 @@
   h1{
       font-size: 40px !important;
   }
+      h2{
+        font-size: 30px !important;
+     }
+
   .hero h1{
     padding-top: 40px;
   }
