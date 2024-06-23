@@ -1,0 +1,32 @@
+.signup {
+    background-image: url('../images/signup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh !important;
+    min-width: 100% !important;
+    /* position: absolute; */
+};
+.signin {
+    background-image: url('../images/signup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh !important;
+    min-width: 100% !important;
+    /* position: absolute; */
+};
+
+#styledbg {
+    /* display: flex !important;
+    background-image: url('../images/authbg.png'); */
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    width: 100% !important;
+    position: absolute;
+    background-position: center right !important; */
+};
+
+
+/* .hh{
+    position: absolute !important;
+} */
