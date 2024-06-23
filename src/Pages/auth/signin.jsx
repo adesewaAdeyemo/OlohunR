@@ -86,13 +86,13 @@ class SignIn extends Component {
                 <br></br>
                 <hr></hr>
                 <div className="text-center pt-3 or">
-                  <Link
+                  {/* <Link
                     className=""
                     to="/connectgoogle"
                     style={{ color: "#fff" }}
-                  >
+                  > */}
                     Or sign in with google
-                  </Link>
+                  {/* </Link> */}
                 </div>
                 <br className=""></br>
 
