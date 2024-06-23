@@ -29,7 +29,7 @@ class SignUp extends Component {
             style={{ margin: "auto 0" }}
           >
             <div className="col-md-3"></div>
-            <div className="col-lg-4 col-md-8">
+            <div className="col-lg-4 col-md-8 col-sm-10">
               <Form
                 className=""
                 style={{ color: "#fff" }}

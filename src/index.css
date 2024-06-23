@@ -134,8 +134,11 @@
         position: relative;
         left: 150px !important;
     } */
-     form{
-      /* min-width: 100% !important; */
+     form h2{
+      font-size: 18px;
+     }
+     button a{
+      font-size: 14px;
      }
       .d-flex{
         display: block !important;

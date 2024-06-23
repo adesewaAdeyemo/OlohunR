@@ -66,7 +66,7 @@ class SignIn extends Component {
             style={{ margin: "auto 0" }}
           >
             <div className="col-md-3 "></div>
-            <div className="col-lg-4 col-md-8">
+            <div className="col-lg-4 col-md-8 col-sm-10">
               <Form style={{ color: "#fff" }} onSubmit={this.formSubmit}>
                 <h2>Sign in to Olóhun</h2>
                 <br></br>
