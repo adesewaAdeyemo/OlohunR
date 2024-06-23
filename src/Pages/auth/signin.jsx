@@ -36,7 +36,10 @@ class SignIn extends Component {
 
   validateInput() {
     if (!this.state.emailOrUsername > 0 && !this.state.password > 0) {
-      this.setState({ emailError: "Email and password is required" });
+      this.setState({
+        emailError: "Email is required",
+        passwordError: "Password is required",
+      });
     } else if (!this.state.emailOrUsername > 0) {
       this.setState({ emailError: "Email is required", passwordError: "" });
     } else if (!this.state.password > 0) {
@@ -114,13 +117,16 @@ class SignIn extends Component {
                 <br className="d-sm-none"></br>
                 <br className="d-sm-none"></br>
                 <Form.Group className="mb-3">
-                  <div className="mb-3 d-flex" id="justb">
+                  <div className="d-flex" id="justb">
                     <Form.Label>Password</Form.Label>
-                    <span style={{ color: "red" }} className="px-2">
-                      {this.state.passwordError}
+                    <span className="px-5">
                     </span>
                     <Link to="/forget">Forgot password</Link>
                   </div>
+                  <span style={{ color: "red" }}>
+                    {this.state.passwordError}
+                  </span>
+
                   <Form.Control
                     placeholder="Password"
                     type="password"
