@@ -7,11 +7,18 @@ import { Artist } from "./Artist";
 import { ArtPiece } from "./ArtPiece";
 // import { useState } from "react";
 import { Header } from "./Header";
-
+import NavBar from "../../NavBar";
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      navState: {
+        NavbarBrand: "Olóhun",
+        collection: "Collection",
+        category: "Category",
+        signin: "Log In",
+        signup: "Sign Up",
+      },
       name: "",
       email: "",
       password: "",
@@ -61,8 +68,11 @@ class Home extends Component {
       return <Dropdown.Item key={index}>{item}</Dropdown.Item>;
     });
 
+
+
     return (
       <>
+        <NavBar navState={this.state.navState} />
         <Header />
         <div className="section2">
           <h2

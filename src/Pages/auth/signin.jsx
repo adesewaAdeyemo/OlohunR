@@ -63,7 +63,11 @@ class SignIn extends Component {
     return (
       <>
         <div className="signin d-flex">
-          <div className="styled col-md-3 d-sm-non" id="hh"></div>
+          <div className="styled col-md-3 d-sm-non pt-4" id="hh">
+            <Link to="/" className="anavbar-brand">
+              Olóhun
+            </Link>
+          </div>
           <div
             className="styledbg col-md-9 col-sm-12 d-flex"
             style={{ margin: "auto 0" }}
@@ -91,7 +95,7 @@ class SignIn extends Component {
                     to="/connectgoogle"
                     style={{ color: "#fff" }}
                   > */}
-                    Or sign in with google
+                  Or sign in with google
                   {/* </Link> */}
                 </div>
                 <br className=""></br>
@@ -119,8 +123,7 @@ class SignIn extends Component {
                 <Form.Group className="mb-3">
                   <div className="" id="justb">
                     <Form.Label>Password</Form.Label>
-                    <span className="px-2">
-                    </span>
+                    <span className="px-2"></span>
                     <Link to="/forget">Forgot password</Link>
                   </div>
                   <span style={{ color: "red" }}>

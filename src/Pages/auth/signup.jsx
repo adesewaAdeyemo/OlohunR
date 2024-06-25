@@ -5,12 +5,13 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 
 import { Component } from "react";
-
+import NavBar from "../../NavBar";
 
 class SignUp extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+    };
   }
   formSubmit=(e)=>{
     e.preventDefault();
@@ -23,7 +24,11 @@ class SignUp extends Component {
     return (
       <>
         <div className="signup d-flex">
-          <div className="styled col-md-3" id="hh"></div>
+          <div className="styled col-md-3 pt-4" id="hh">
+            <Link to="/" className="anavbar-brand">
+              Olóhun
+            </Link>
+          </div>
           <div
             className="styledbg col-md-9 d-flex"
             style={{ margin: "auto 0" }}

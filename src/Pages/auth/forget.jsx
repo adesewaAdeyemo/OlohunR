@@ -53,7 +53,11 @@ class ForgetPassword extends Component {
     return (
       <>
         <div className="signin d-flex">
-          <div className="styled col-md-3" id="hh"></div>
+          <div className="styled col-md-3 pt-4" id="hh">
+            <Link to="/" className="anavbar-brand">
+              Olóhun
+            </Link>
+          </div>
           <div
             className="styledbg col-md-9 d-flex"
             style={{ margin: "auto 0" }}

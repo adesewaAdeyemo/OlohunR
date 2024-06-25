@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-// import React, { useState, Component } from "react";
-// import { BrowserRouter as Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
-// import App from "./App"
-// import Home from "./component/Home";
-// import About from "./component/About";
-// import Login from "./component/auth/login";
-// import SignUp from "./component/auth/signup";
 
 import {
   Button,
@@ -18,26 +10,11 @@ import {
   Form,
 } from "react-bootstrap";
 
-class NavBar extends Component {
-  // function NavBar({ this.state.navState }) {
-  // this.state = {this.state.navState};
-  constructor(props) {
-    super(props);
-    // this.state = {
-    //     navState: []
-    // };
-  }
-
-  render() {
-    const navItem = this.props.navState;
-
-    function changeNav() {
-      // let mainNav = document.querySelector("#mainNav");
-      // mainNav.style.display="none";
-    }
+  function NavBar( {navState} ) {
+    
+    const navItem = navState;
     return (
       <div>
-        {/* <Router> */}
         <div className="wrapper100" style={{ position: "absolute" }}>
           <Navbar expand="lg" className="pt-3 wrapper90" id="mainNav">
             <Container fluid className="alignCenter navv">
@@ -57,9 +34,6 @@ class NavBar extends Component {
                       {navItem.collection}{" "}
                     </Link>
                   </Nav.Link>
-                  {/* <Nav.Link as={Link} to="/">
-                    {navItem.category}
-                  </Nav.Link> */}
                   <NavDropdown
                     title={navItem.category}
                     id="navbarScrollingDropdown"
@@ -87,7 +61,6 @@ class NavBar extends Component {
                 />
                 <Button variant="" className="mx-5 d-sm-non">
                   <Link
-                    // onClick={changeNav}
                     className="nav-item px-4 py-2 trans-btn auth"
                     to="/signin"
                   >
@@ -103,16 +76,8 @@ class NavBar extends Component {
             </Container>
           </Navbar>{" "}
         </div>
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
-        </Routes>{" "}
-      </Router> */}
       </div>
     );
   }
-}
 
 export default NavBar;

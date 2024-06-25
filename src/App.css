@@ -88,6 +88,15 @@ a.navbar-brand {
     font-weight: 400;
     line-height: normal;             
 }
+.styled a.anavbar-brand {
+    color: #FFF !important;
+    font-family: "Joti One";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 100px;             
+}
 .alignCenter{
     align-items: center !important;
 }
